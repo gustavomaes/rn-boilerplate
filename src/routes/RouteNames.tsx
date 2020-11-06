@@ -7,11 +7,11 @@ export type RouteNameProps = {
   HOME: 'Home'
 
   // Destaques Stack
-  DESTAQUES_STACK: 'DestaquesStack'
-  DESTAQUES: 'Destaques'
+  FEATURED_STACK: 'FeaturedStack'
+  FEATURED: 'Featured'
 
-  PROMOCOES: 'Promocoes'
-  PERFIL: 'Perfil'
+  PROMOTIONS: 'Promotions'
+  PROFILE: 'Profile'
 
   // Modal
   MODAL: 'Modal'
@@ -29,11 +29,11 @@ const ROUTENAMES: RouteNameProps = {
   HOME: 'Home',
 
   // Destaques Stack
-  DESTAQUES_STACK: 'DestaquesStack',
-  DESTAQUES: 'Destaques',
+  FEATURED_STACK: 'FeaturedStack',
+  FEATURED: 'Featured',
 
-  PROMOCOES: 'Promocoes',
-  PERFIL: 'Perfil',
+  PROMOTIONS: 'Promotions',
+  PROFILE: 'Profile',
 
   // Modal
   MODAL: 'Modal',

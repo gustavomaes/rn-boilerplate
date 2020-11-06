@@ -32,7 +32,7 @@ const DestqueStack = createStackNavigator()
 const DestqueRoutes = () => (
   <DestqueStack.Navigator>
     <DestqueStack.Screen
-      name={ROUTENAMES.DESTAQUES}
+      name={ROUTENAMES.FEATURED}
       component={Destaques}
       options={{
         headerShown: false,
@@ -47,11 +47,11 @@ const AppRoutes = () => {
     <AppTabs.Navigator initialRouteName={ROUTENAMES.HOME}>
       <AppTabs.Screen name={ROUTENAMES.HOME_STACK} component={HomeRoutes} />
       <AppTabs.Screen
-        name={ROUTENAMES.DESTAQUES_STACK}
+        name={ROUTENAMES.FEATURED_STACK}
         component={DestqueRoutes}
       />
-      <AppTabs.Screen name={ROUTENAMES.PROMOCOES} component={Promocoes} />
-      <AppTabs.Screen name={ROUTENAMES.PERFIL} component={Perfil} />
+      <AppTabs.Screen name={ROUTENAMES.PROMOTIONS} component={Promocoes} />
+      <AppTabs.Screen name={ROUTENAMES.PROFILE} component={Perfil} />
     </AppTabs.Navigator>
   )
 }

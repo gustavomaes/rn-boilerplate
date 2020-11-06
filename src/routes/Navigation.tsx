@@ -12,10 +12,10 @@ export type AppParamList = {
   }
   Home: undefined
   HomeStack: undefined
-  Destaques: undefined
-  DestaquesStack: undefined
-  Promocoes: undefined
-  Perfil: undefined
+  Featured: undefined
+  FeaturedStack: undefined
+  Promotions: undefined
+  Profile: undefined
   App: undefined
 }
 
