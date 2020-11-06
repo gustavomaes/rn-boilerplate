@@ -1,13 +1,15 @@
-import Button from 'component/Button'
+import 'react-native-gesture-handler'
 import React from 'react'
-import { Text } from 'react-native'
+import { ThemeProvider } from 'styled-components'
+
+import theme from 'styles/theme'
+import Navigation from 'routes/Navigation'
 
 const App = () => {
   return (
-    <>
-      <Text>Template</Text>
-      <Button />
-    </>
+    <ThemeProvider theme={theme}>
+      <Navigation />
+    </ThemeProvider>
   )
 }
 
